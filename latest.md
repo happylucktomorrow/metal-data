@@ -1,0 +1,12 @@
+# Latest Metal Prices
+
+Collected at: 2026-05-08T01:12:33.183Z
+
+| City | Commodity | Price | Currency | Unit | Status | Market time | Source | Notes |
+| --- | --- | ---: | --- | --- | --- | --- | --- | --- |
+| Shanghai | GOLD | 4716.52 | USD | troy_ounce | ok | 2026-05-08T03:12:32.000Z | Stooq XAU/USD spot fallback | Public global XAU/USD benchmark. Replace with an SGE/Shanghai-specific source when a permitted API is available. |
+| Dandong | GOLD | 4716.52 | USD | troy_ounce | ok | 2026-05-08T03:12:32.000Z | Stooq XAU/USD spot fallback | Public global XAU/USD benchmark. Replace with a Dandong-local retail or exchange source when a permitted API is available. |
+| Shanghai | COPPER | 6.1718 | USD | pound | ok | 2026-05-08T03:12:34.000Z | Stooq HG copper futures fallback | Public COMEX HG futures fallback. Stooq quotes this in US cents/lb, so the app stores USD/lb. Replace with a Shanghai-local source when available. |
+| Dandong | COPPER | 6.1718 | USD | pound | ok | 2026-05-08T03:12:34.000Z | Stooq HG copper futures fallback | Public COMEX HG futures fallback. Stooq quotes this in US cents/lb, so the app stores USD/lb. Replace with a Dandong-local source when available. |
+| Shanghai | WC | N/A | USD | kg | unavailable | N/A | No default public WC source | No reliable no-auth public source was found for Shanghai-local WC/tungsten-carbide pricing. Configure PRICE_SOURCES_FILE or PRICE_SOURCES_JSON with a permitted JSON or HTML source. |
+| Dandong | WC | N/A | USD | kg | unavailable | N/A | No default public WC source | No reliable no-auth public source was found for Dandong-local WC/tungsten-carbide pricing. Configure PRICE_SOURCES_FILE or PRICE_SOURCES_JSON with a permitted JSON or HTML source. |
